@@ -1,7 +1,6 @@
 ---
 name: vogen-text-to-speech
 description: Generate speech with VoGen from a named or cloned voice. Use for narration, voiceovers, announcements, multilingual speech, and dialogue. Defaults to V2 and supports V1 for explicit language or emotion controls.
-compatibility: Requires internet access and VOGEN_API_KEY.
 metadata:
   openclaw:
     requires:

@@ -2,7 +2,6 @@
 name: vogen-emotion-library
 description: Discover VoGen audio emotion references available to an account, including private uploaded emotions, system emotions, and public emotions. Use when resolving a named emotion reference before text-to-speech with emotion_type=audio.
 license: MIT
-compatibility: Requires internet access and a VoGen API key (VOGEN_API_KEY).
 metadata:
   openclaw:
     requires:

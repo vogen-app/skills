@@ -1,7 +1,6 @@
 ---
 name: vogen-speech-to-text
 description: Transcribe local audio with VoGen or align a corrected transcript to its audio. Use for speech-to-text, timestamped transcripts, and locating words for VoGen voice rewrite.
-compatibility: Requires internet access and VOGEN_API_KEY.
 ---
 
 # VoGen speech to text

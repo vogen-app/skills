@@ -2,7 +2,6 @@
 name: vogen-sound-effects
 description: Search, select, and download royalty-free MP3 sound effects from the VoGen library. Use for ambience, Foley, transitions, impacts, UI sounds, nature, reactions, game audio, or any request for non-speech SFX, including natural-language descriptions that do not match an exact library name.
 license: MIT
-compatibility: Requires internet access and a VoGen API key (VOGEN_API_KEY).
 metadata:
   openclaw:
     requires:

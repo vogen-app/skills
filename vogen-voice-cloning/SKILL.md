@@ -2,7 +2,6 @@
 name: vogen-voice-cloning
 description: Create a private VoGen voice from a local reference recording. Use when a user asks to clone, copy, reproduce, or save a voice for later text-to-speech, and they have an authorized MP3, WAV, M4A, FLAC, OGG, or WebM sample.
 license: MIT
-compatibility: Requires internet access and a VoGen API key (VOGEN_API_KEY).
 metadata:
   openclaw:
     requires:

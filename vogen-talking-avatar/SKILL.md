@@ -1,7 +1,6 @@
 ---
 name: vogen-talking-avatar
 description: Make an existing VoGen avatar speak from a script or audio. Use for presenter, talking-head, and lip-sync videos when the user can choose an Avatar ID or Look ID from their account.
-compatibility: Requires internet access, VOGEN_API_KEY, and Python 3 for the background waiter.
 metadata:
   openclaw:
     requires:

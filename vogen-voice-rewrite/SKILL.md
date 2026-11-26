@@ -1,7 +1,6 @@
 ---
 name: vogen-voice-rewrite
 description: Replace, insert, or delete speech within an existing VoGen-compatible recording up to 30 seconds. Use a time range or identify the original words to rewrite.
-compatibility: Requires internet access and VOGEN_API_KEY.
 ---
 
 # VoGen voice rewrite

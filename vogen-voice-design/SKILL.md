@@ -1,7 +1,6 @@
 ---
 name: vogen-voice-design
 description: Create a new private VoGen voice from a written description and generate a playable sample. Use for designing an original voice when no reference recording is supplied.
-compatibility: Requires internet access and VOGEN_API_KEY.
 ---
 
 # VoGen voice design

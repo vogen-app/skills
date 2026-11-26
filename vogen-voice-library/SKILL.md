@@ -2,7 +2,6 @@
 name: vogen-voice-library
 description: Discover VoGen voice IDs available to an account, including private cloned voices, system voices, shared voices, and public voices. Use when choosing a speaker by language or gender, resolving a voice ID before text-to-speech, or listing an account's cloned voices.
 license: MIT
-compatibility: Requires internet access and a VoGen API key (VOGEN_API_KEY).
 metadata:
   openclaw:
     requires:
