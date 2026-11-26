@@ -2,7 +2,7 @@
 
 ## Request
 
-`POST /v1/text-to-speech/{voice_id}` with JSON. The path accepts a numeric ID or `voice_hash`.
+`POST /v1/text-to-speech/{voice_id}` with JSON. The path accepts a numeric ID or `voice_hash`. When using a hash, add `?voice_id_type=hash` so numeric hashes are resolved correctly.
 
 | Field | Type | Default | Notes |
 |---|---|---|---|

@@ -10,7 +10,7 @@ metadata:
 
 # VoGen text to speech
 
-Use the Voice ID copied from VoGen or resolve a name to `voice_hash` with `vogen-voice-library`. A Voice ID for V2 is a 64-character hash. Use `vogen-setup-api-key` if the key is missing.
+Use the Voice ID copied from VoGen or resolve a name to `voice_hash` with `vogen-voice-library`. Send the value as returned. Use `vogen-setup-api-key` if the key is missing.
 
 ## Generate with V2
 
@@ -27,7 +27,7 @@ curl --fail-with-body -X POST "https://api.vogen.app/v2/text-to-speech/VOICE_HAS
 
 ## When to use V1
 
-Use [V1 options](references/options.md) when the user explicitly requests V1 or needs its language selection, automatic translation, or emotion controls. V1 accepts both numeric IDs and hashes, streams MP3, and returns `X-Vogen-Task-Id` for composition as `source_tts_task_id`.
+Use [V1 options](references/options.md) when the user explicitly requests V1 or needs its language selection, automatic translation, or emotion controls. Use `?voice_id_type=hash` when passing a `voice_hash` to V1. V1 streams MP3 and returns `X-Vogen-Task-Id` for composition as `source_tts_task_id`.
 
 For a default V2 request, V1 fallback is allowed once when the V2 route is absent, the API explicitly reports queue unavailability before accepting the job, or the job is terminal `failed` with `credits_cost=0` and no result. Use fallback only when V1 can preserve the requested options. Honor explicit V2 requests. Auth, voice access, credits, validation, and queue limit errors require their own resolution. On a transport timeout or unknown submission result, avoid automatic resubmission or fallback. Keep a known task ID and check its status.
 

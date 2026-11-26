@@ -1,6 +1,6 @@
 ---
 name: vogen-setup-api-key
-description: Configure and validate a VoGen API key for HyperVoice integrations. Use when VOGEN_API_KEY is missing, invalid, expired, or revoked, or when a user asks how to access VoGen from an Agent or server-side application.
+description: Configure and validate a VoGen API key. Use when VOGEN_API_KEY is missing, invalid, expired, or revoked, or when a user asks how to access VoGen from an agent or server-side application.
 license: MIT
 ---
 
