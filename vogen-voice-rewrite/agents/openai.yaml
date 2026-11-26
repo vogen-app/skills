@@ -1,0 +1,4 @@
+interface:
+  display_name: "VoGen Voice Rewrite"
+  short_description: "Rewrite a span of a recording"
+  default_prompt: "Use $vogen-voice-rewrite to edit the words in this recording."

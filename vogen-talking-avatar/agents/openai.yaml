@@ -1,0 +1,4 @@
+interface:
+  display_name: "VoGen Talking Avatar"
+  short_description: "Make an existing avatar speak"
+  default_prompt: "Use $vogen-talking-avatar to make one of my avatars speak."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "VoGen Voice Design"
+  short_description: "Design and save an original voice"
+  default_prompt: "Use $vogen-voice-design to create a voice from my description."

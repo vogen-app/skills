@@ -1,0 +1,4 @@
+interface:
+  display_name: "VoGen Speech to Text"
+  short_description: "Transcribe audio with timestamps"
+  default_prompt: "Use $vogen-speech-to-text to transcribe this audio."
