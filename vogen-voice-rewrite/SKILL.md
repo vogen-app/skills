@@ -19,4 +19,4 @@ curl --fail-with-body -X POST https://api.vogen.app/v2/voice-rewrite \
   -F "replacement_text=Monday"
 ```
 
-Poll `GET /v2/audio/tasks/{task_id}` until terminal. Download the completed WAV using `GET /v2/audio/tasks/{task_id}/download`. Keep the original recording and return the edited file. Resume a running request by task ID.
+Poll `GET /v2/audio/tasks/{task_id}` until terminal. Download the completed MP3 using `GET /v2/audio/tasks/{task_id}/download`. Keep the original recording and return the edited file. Resume a running request by task ID.

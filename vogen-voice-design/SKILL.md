@@ -14,6 +14,6 @@ curl --fail-with-body -X POST https://api.vogen.app/v2/voice-design \
   -d '{"description":"Warm, measured narrator","name":"Studio narrator"}'
 ```
 
-Poll `GET /v2/audio/tasks/{task_id}`. When completed, call `GET /v2/audio/tasks/{task_id}/download` and save the signed `url` to a WAV file. Use the returned `voice_hash` with `vogen-text-to-speech`. When `save_status=slot_limit`, deliver the sample and report that it could not be saved. A running job or an ambiguous submission should not be submitted again automatically.
+Poll `GET /v2/audio/tasks/{task_id}`. When completed, call `GET /v2/audio/tasks/{task_id}/download` and save the signed `url` to an MP3 file. Use the returned `voice_hash` with `vogen-text-to-speech`. When `save_status=slot_limit`, deliver the sample and report that it could not be saved. A running job or an ambiguous submission should not be submitted again automatically.
 
 Use `vogen-setup-api-key` if needed.

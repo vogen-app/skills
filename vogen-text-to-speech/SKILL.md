@@ -22,7 +22,7 @@ Prepare the user's script before sending it. Keep every spoken character and its
 4. Remove any other bracket or angle tag. If a short opening direction is already present, keep that one.
 5. Submit that annotated string once to `POST https://api.vogen.app/v2/text-to-speech/{voice_id}` with Bearer authentication and JSON. `text` is 1–2,000 characters including the tags. Optionally send `reference_text` (the exact transcript of the voice's reference recording). If the user explicitly asks for the wording with no delivery markup, send the original text unchanged.
 6. Keep the returned `task_id`. Poll `GET /v2/audio/tasks/{task_id}` until `completed`, `failed`, or `cancelled`. Allow several seconds between polls. Resume a running job using its task ID.
-7. On completion, call `GET /v2/audio/tasks/{task_id}/download`. Download the signed `url` promptly without forwarding the API key. Save the WAV and verify it plays. For `vogen-talking-avatar`, pass the completed task ID as `source_audio_task_id`.
+7. On completion, call `GET /v2/audio/tasks/{task_id}/download`. Download the signed `url` promptly without forwarding the API key. Save the MP3 and verify it plays. For `vogen-talking-avatar`, pass the completed task ID as `source_audio_task_id`.
 
 ```bash
 curl --fail-with-body -X POST "https://api.vogen.app/v2/text-to-speech/VOICE_HASH" \
