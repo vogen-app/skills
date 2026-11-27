@@ -8,7 +8,7 @@
 | [`vogen-voice-library`](vogen-voice-library/) | Find voices and their Voice IDs. |
 | [`vogen-voice-cloning`](vogen-voice-cloning/) | Clone a private voice from reference audio. |
 | [`vogen-emotion-library`](vogen-emotion-library/) | Find emotion references for V1 speech. |
-| [`vogen-text-to-speech`](vogen-text-to-speech/) | Generate speech with V2 or V1. |
+| [`vogen-text-to-speech`](vogen-text-to-speech/) | Generate speech with V2 or V1. V2 scripts get a short opening direction and emphasis first. |
 | [`vogen-sound-effects`](vogen-sound-effects/) | Find and download sound effects. |
 | [`vogen-talking-avatar`](vogen-talking-avatar/) | Make an existing avatar speak. |
 | [`vogen-voice-design`](vogen-voice-design/) | Design and save a private voice from a description. |
