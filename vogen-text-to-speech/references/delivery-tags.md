@@ -8,7 +8,7 @@ Every script starts with exactly one square-bracket direction:
 
 - Same language as the script.
 - One short phrase, at most 48 characters.
-- Describes how to speak the line. It is not a preset tag name.
+- Describes how to speak the line. A single preset label is not a direction: `[自信]` and `[confident]` are wrong.
 - Not spoken aloud.
 
 `[语气清晰自然，像在耐心介绍功能]`
@@ -17,7 +17,7 @@ Keep an existing short direction. Do not add a second one. Drop a direction long
 
 ## Emphasis
 
-Prefer `<emphasis>...</emphasis>` over the other span tags, but use it sparingly. In a few sentences, wrap only one or two short words that carry the point. Do not mark every clause, and do not wrap a whole phrase when one word is enough.
+Wrap exactly one or two short words that carry the point in `<emphasis>...</emphasis>`. Do not mark every clause, and do not wrap a whole phrase when one word is enough. A paragraph with no emphasis, or with emphasis on every phrase, is wrong.
 
 ## Other tags
 
