@@ -17,7 +17,7 @@ Keep an existing short direction. Do not add a second one. Drop a direction long
 
 ## Emphasis
 
-Prefer `<emphasis>...</emphasis>`. Wrap the short words or phrases a listener should notice. Use it often: a normal sentence often needs more than one. Do not wrap a whole paragraph.
+Prefer `<emphasis>...</emphasis>` over the other span tags, but use it sparingly. In a few sentences, wrap only one or two short words that carry the point. Do not mark every clause, and do not wrap a whole phrase when one word is enough.
 
 ## Other tags
 
@@ -43,4 +43,4 @@ User text:
 
 Annotated text:
 
-`[语气清晰自然，像在耐心介绍功能] 这是一个可以克隆自己声音的网站，<emphasis>你只需要</emphasis>上传一段自己的清晰语音。`
+`[语气清晰自然，像在耐心介绍功能] 这是一个可以克隆自己声音的网站，你只需要上传一段自己的<emphasis>清晰</emphasis>语音。`

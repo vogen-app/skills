@@ -17,7 +17,7 @@ Use the Voice ID copied from VoGen or resolve a name to `voice_hash` with `vogen
 Prepare the user's script before sending it. Keep every spoken character and its punctuation. Add delivery markup only, using [delivery tags](references/delivery-tags.md).
 
 1. Start with one short square-bracket direction in the script's language. One phrase, at most 48 characters. It describes how to speak the line and is not spoken. Do not use a preset tag name there.
-2. Wrap the short words or phrases a listener should notice in `<emphasis>...</emphasis>`. Use it often. A normal sentence often needs more than one.
+2. Prefer `<emphasis>...</emphasis>` over other span tags, but use it sparingly. In a few sentences, wrap only one or two short words that carry the point. Do not mark every clause.
 3. Add another listed tag only when the line clearly needs that emotion or pace. Place an inline tag before a clause, followed by a space. Do not nest span tags.
 4. Remove any other bracket or angle tag. If a short opening direction is already present, keep that one.
 5. Submit that annotated string once to `POST https://api.vogen.app/v2/text-to-speech/{voice_id}` with Bearer authentication and JSON. `text` is 1–2,000 characters including the tags. Optionally send `reference_text` (the exact transcript of the voice's reference recording). If the user explicitly asks for the wording with no delivery markup, send the original text unchanged.
